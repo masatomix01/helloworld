@@ -15,7 +15,6 @@ http://www.slideshare.net/miyakawataku/concepts-and-tools-of-logging-in-java
   <logger name="jp" level="DEBUG" />
   <logger name="org" level="INFO" />
   <logger name="nu" level="DEBUG" />
-
   <root>
     <appender-ref ref="STDOUT" />
   </root>
