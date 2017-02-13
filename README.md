@@ -6,7 +6,7 @@ https://github.com/masatomix01/helloworld.git をCloneしてきて開発開始�
 
 mvn eclipse:eclipse したのち、Eclipseへインポート可能です。
 
-mvn sprig-boot:runでTomcatが起動します。
+mvn spring-boot:runでTomcatが起動します。
 
 
 curl http://localhost:8080/calc/3/4/add.json
