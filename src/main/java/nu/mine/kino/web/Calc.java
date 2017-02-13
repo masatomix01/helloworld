@@ -8,7 +8,7 @@
  *      Masatomi KINO - initial API and implementation
  * $Id$
  ******************************************************************************/
-//ì¬“ú: 2017/02/10
+//ï¿½ì¬ï¿½ï¿½: 2017/02/10
 
 package nu.mine.kino.web;
 
@@ -37,7 +37,7 @@ public class Calc {
 
     @RequestMapping(value = "/{param1}/{param2}/multiply.json", method = RequestMethod.GET)
     public Object multiply(@PathVariable int param1, @PathVariable int param2) {
-        return param1 + param2;
+        return param1 * param2;
     }
 
     @RequestMapping(value = "/{param1}/{param2}/divide.json", method = RequestMethod.GET)
